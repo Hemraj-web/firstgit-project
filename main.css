@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    height: 100vh;
+     margin: 50px auto;
+}
+
+.headerWrapper {
+    border: 2px solid black;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color:red;
+}
+.purple {
+    background-color: purple;
+}
+.orange {
+    background-color: orange;
+}
+
+.header_box {
+   flex: 1;
+   padding: 20px;
+}
+
+
+.header_box:first-child {
+    flex: 2;
+    padding: 20px;
+    flex-shrink: 0;
+ }
+ 
